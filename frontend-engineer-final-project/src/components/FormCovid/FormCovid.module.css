@@ -1,0 +1,68 @@
+.container {
+  margin: 4rem;
+  display: flex; /* New: Flexbox for side-by-side layout */
+  border: 2px solid #F8F9FA;
+  background-color: #F8F9FA;
+  padding: 10%;
+}
+
+.form__image {
+  margin-right:300px;
+  width: 800px;
+  background-color: #64748B;
+}
+
+.form {
+  flex: 50px; 
+  margin: 80px;
+  padding: 2%;
+  border-radius: 10px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.form__h2 {
+  margin-top: 0;
+  font-size: 70px;
+  flex-direction: column;
+  padding: 90px;
+  text-align:justify;
+  color: #06D6A0;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 2rem;
+}
+
+.form__input {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #06D6A0;
+  border-radius: 10px;
+}
+
+.form__button {
+  margin-top: 0px;
+  width: 80%;
+  padding: 5px 10px;
+  font-size: 20px;
+  border: 1px solid #06D6A0;
+  background-color: #06D6A0;
+  color: #fff;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.form__button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Queries (optional): You can adjust styles for different screen sizes */
+@media (min-width: 768px) {
+  /* Change styles for medium screens */
+}
+
+@media (min-width: 992px) {
+  /* Change styles for large screens */
+}

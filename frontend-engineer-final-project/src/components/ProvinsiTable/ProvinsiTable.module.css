@@ -1,0 +1,60 @@
+.container {
+  max-width: 800px;
+  margin:  auto;
+  background-color: #ffff;
+  padding: 2%;
+}
+
+.provinces {
+  margin-top: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.provinces__title {
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 10px;
+  color: #06D6A0;
+  flex-direction: column;
+}
+
+.provinces__author {
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #118AB2;
+  flex-direction: column;
+}
+
+.provinces__container {
+  overflow-x: auto;
+}
+
+.provinces__table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.provinces__table th,
+.provinces__table td {
+  border: 2px solid #64748B;
+  padding: 8px;
+  text-align: left;
+  width: 100px;
+  height: 10%;
+  padding: 20px;
+}
+
+.provinces__table th {
+  background-color: white;
+  color: #06D6A0;
+}
+
+.provinces__table tr:nth-child(even) {
+  background-color: white;
+}
+
+.provinces__table tr:hover {
+  background-color: #f2f2f2;
+}
